@@ -1,4 +1,4 @@
 def find_max_value(array)
-  array.sort.reverse
-  return array[0]
+  new_arr = array.sort.reverse
+  return new_array[0]
 end
